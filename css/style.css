@@ -105,3 +105,24 @@ html {
     background-color: #f2b134;
     color: #2b193d;
   }
+
+  .wrapper {
+    margin: 0 auto;
+    max-width: 75rem;
+    overflow: hidden;
+    padding: 2.5rem 0 3.5rem;
+    width: 90%;
+  }
+  
+  footer {
+    background-color: #2b193d;
+    clear: both;
+    color: #ffffff;
+    font-size: 0.875rem;
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
