@@ -1,0 +1,61 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: #f4f1f8;
+    color: #211c2b;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+  
+  h1,
+  h2,
+  h3,
+  nav {
+    font-family: "Chakra Petch", "Trebuchet MS", sans-serif;
+  }
+  
+  h1 {
+    color: #2b193d;
+    font-size: 2.75rem;
+    line-height: 1.1;
+    margin: 0 0 0.5rem;
+  }
+  
+  h2 {
+    color: #2b193d;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    margin: 0 0 0.75rem;
+  }
+  
+  h3 {
+    color: #5b3a82;
+    font-size: 1.125rem;
+    margin: 1.5em 0 0.5em;
+  }
+  
+  a {
+    color: #5b3a82;
+  }
+  
+  a:hover,
+  a:focus {
+    background-color: #f2b134;
+    color: #2b193d;
+  }
+  
+  img,
+  video {
+    height: auto;
+    max-width: 100%;
+  }
