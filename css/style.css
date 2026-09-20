@@ -59,3 +59,49 @@ html {
     height: auto;
     max-width: 100%;
   }
+
+  header {
+    background-color: #2b193d;
+    border-bottom: 0.25rem solid #f2b134;
+  }
+  
+  nav {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    display: block;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    padding: 1em 1.75em;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a:focus {
+    background-color: #5b3a82;
+    color: #f2b134;
+  }
+  
+  /* Current page link: nav HTML is identical everywhere, body id picks the link */
+  #home .nav-home,
+  #resume .nav-resume,
+  #projects .nav-projects {
+    background-color: #f2b134;
+    color: #2b193d;
+  }
